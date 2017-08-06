@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Variable Js</title>
+  <link rel ="stylesheet" href="CSS/P_index_10.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+
+</head>
+
+<body>
+
+  <input type="number" id="number1" onchange="
+            // .value pour attraper la valeur
+            // parseInt car la valeur d’un input est vu
+            // comme du texte. parseInt en fait un nombre
+            // % (alias « modulo ») est le reste d’une division
+            // .innerHTML : avec deux n seulement
+            if(parseInt(number1.value)%2==0) {
+                    result.innerHTML = 'pair';
+            }
+            else {
+                    result.innerHTML = 'impair';
+            }">
+  <div id="result"></div>
+
+<script type="text/javascript" src="JS/P_index_10.js"></script>
+
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

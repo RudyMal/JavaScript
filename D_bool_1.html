@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Variable Js</title>
+  <link rel ="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+
+</head>
+
+<body>
+
+  <!--
+  éléments d'interface :
+  cases à cocher :
+  - gaz éteint
+  - électricité éteinte
+  - fenêtres fermées
+  - j'ai pris la clé
+
+  - bouton de validation avec label "puis-je partir en vacance ?"
+
+  - une zone d'affichage de message
+
+  éléments de code :
+  - une fonction qui est appelé par le bouton de validation
+  - dans cette fonction il faudra développer les sections suivantes:
+  - récupération des valeurs
+  - analyse des valeurs
+  - affichage du message
+
+  message :
+  - "vous pouvez y aller" si toutes les cases sont cochées
+  - "attendez, il reste des choses à faire" si au moins une case n'est pas cochée
+-->
+
+<div id="message"></div>
+
+<div>
+  <label><input class="checklist-item" type="checkbox" id="gas" /> Gaz éteint</label>
+</div>
+
+<div>
+  <label><input class="checklist-item" type="checkbox" id="electricity" /> Electricité éteinte</label>
+</div>
+
+<div>
+  <label><input class="checklist-item" type="checkbox" id="windows" /> Fenêtre fermées</label>
+</div>
+
+<div>
+  <label><input class="checklist-item" type="checkbox" id="key" /> J'ai pris la clé</label>
+</div>
+
+<div>
+  <button onClick="check();">Puis-je partir en vacance?</button>
+</div>
+
+<script type="text/javascript" src="JS/D_bool_1.js"></script>
+
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

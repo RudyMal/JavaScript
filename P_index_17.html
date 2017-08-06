@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title></title>
+  <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" type="text/css" href="CSS/P_main_17.css" />
+  <script type="text/javascript" src="JS/P_index_17.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+
+        <input type="hidden" name="token" value=""/>
+
+        <div class="row">
+          <div class="form-group">
+            <label class="col-sm-3" for="heroname">Nom de héro</label>
+            <input class="col-sm-9" class="form-control" type="text" id="heroname" name="heroname" value="" placeholder="Nom de héro" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group">
+            <label class="col-sm-3" for="Agility">Agilité</label>
+            <input class="col-sm-9" type="number" id="agility" name="agility" value="" placeholder="Agility" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group">
+            <label class="col-sm-3" for="Strength">Force</label>
+            <input class="col-sm-9" type="number" id="strength" name="strength" value="" placeholder="Strength" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group">
+            <label class="col-sm-3" for="Endurance">Endurance</label>
+            <input class="col-sm-9" type="number" id="endurance" name="endurance" value="" placeholder="Endurance" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <input type="submit" onClick="info()" value="valider" />
+    </div>
+  </div>
+
+  <div id="info"></div>
+
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
